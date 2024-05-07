@@ -6,10 +6,10 @@ const dateYear = document.getElementById('dateYear');
 
 // contenedor de tareas
 const tasksContainer = document.getElementById('tasksContainer');
-/*cramos una funcion que va a servir para setear la fecha,
+
+/*creamos una funcion que va a servir para setear la fecha,
 usaremos setDate: nos lo proporciona el mismo JavaScript para
 obtener la fecha actual*/
-
 const setDate = () => {
     const date = new Date();
     dateNumber.textContent = date.toLocaleString('es', { day: 'numeric' });//dia de la fecha
